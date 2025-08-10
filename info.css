@@ -1,0 +1,37 @@
+   body {
+      background-image: url(../images/backgroundgioithieu.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px;
+      font-family: 'Times New Roman', Times, serif;
+        }
+        .menu {
+        list-style: none;
+        display: flex;         
+        gap: 30px;              
+        margin: 0;
+        padding: 0;
+        }
+        .menu li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        }
+        h2, div{
+            text-align: center;
+        }
+        div div{
+            display: inline-block;
+        }
+        .text{
+            font-size: small;
+            text-align: right;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .caption-introduct{
+            word-spacing: 7px;
+        }

@@ -1,0 +1,172 @@
+    body {
+        background-image: url(../images/background.png);
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 40px;
+    }
+
+    nav {
+        padding-inline: 40px;
+        justify-content: space-between;
+        align-items: left;
+    }
+
+    .menu {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+    .menu li a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .space {
+        height: 10vh;
+    }
+
+    form {
+        background-color: #ffffff;
+        margin: 60px;
+        width: 90%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    form input {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    }
+
+    form button {
+        width: 100px;
+        height: 50px;
+        margin: 20px;
+        font-family: fantasy;
+        color: white;
+        border-radius: 20px;
+    }
+    div table tr td button{
+        background-color: green;
+    }
+    button:hover {
+        filter: brightness(120%);
+        transform: scale(1.02);
+    }
+
+    button:disabled {
+        background-color: gray !important;
+        color: #666;
+        transform: scale(1) !important;
+        box-shadow: none;
+    }
+
+    .div-header {
+        text-align: center;
+    }
+
+    .inputbox {
+        width: 98%;
+        font-size: 16px;
+        padding: 4px;
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+
+    option {
+        font-size: 20px;
+        padding: 20px;
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+
+    .note {
+        display: inline-block;
+        position: relative;
+    }
+
+    .note .text {
+        display: none;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .note:hover .text {
+        width: 650px;
+        display: block;
+    }
+
+    button.inputbox {
+        border-width: 1px;
+        border-radius: 3px;
+        background-color: #cae0f5;
+        margin-top: 5px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    button.inputbox:hover {
+        background-color: #96c1ea;
+        text-decoration: underline;
+    }
+
+    label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        /*Truc Tung*/
+        align-items: center;
+        /*Truc Hoanh*/
+    }
+
+    .buttoncontainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .description {
+        text-align: center;
+        font-size: small;
+        padding: 80px;
+        color: #ffff;
+    }
+    canvas {
+        background-color: white;
+        margin: 0px auto;
+        display: none;
+        width: 90%;
+        border-radius: 10px;
+    }
+    .advert{
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    div.advert img{
+        width: 30%;
+        justify-content: center;
+        padding: 7px;
+    }
+    div.advert img:hover{
+        scale: 120%;
+    }

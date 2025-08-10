@@ -1,0 +1,182 @@
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-snap-stop: 10vh;
+}
+
+#chosse {
+  scroll-margin-top: 80px;
+}
+
+.transit {
+  transition: width 2s, height 2s;
+}
+
+.transit:hover {
+  width: 500px;
+}
+
+.transitIconSmall {
+  transition: width 2s, height 2s;
+}
+
+.transitIconSmall:hover {
+  scale: 125%;
+}
+
+table {
+  background-color: white;
+  justify-content: center;
+  color: black;
+}
+
+table td {
+  padding: 20px;
+}
+
+body {
+  background-image: url(../images/backgroundgioithieu\ \(2\).gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+nav {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: rgb(4, 8, 50);
+}
+
+.menu {
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+.menu li a img:hover {
+  scale: 120%;
+}
+
+.canhle {
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.item {
+  flex: 1;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.subtext {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+video {
+  border-radius: 50px;
+  width: 400px;
+  height: auto;
+}
+
+.chosse {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.space {
+  height: 10vh;
+}
+
+.linkColor {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+.advert {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+div.advert img {
+  margin-top: 40px;
+  width: 30%;
+  justify-content: center;
+  padding: 7px;
+}
+
+div.advert img:hover {
+  scale: 120%;
+}
+
+#chatbot {
+  position: fixed;
+  bottom: 20px;
+  left: 90%;
+  z-index: 2;
+}
+
+#chatbot:hover {
+  scale: 110%;
+}
+
+#list {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  left: 75%;
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+}
+
+#list ul li {
+  list-style: disc;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+#list ul li a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-decoration: none;
+}
